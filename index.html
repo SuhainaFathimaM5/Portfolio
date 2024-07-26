@@ -1,0 +1,544 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Suhaina Fathima M </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<style>
+			.skills-container {
+				height: 500px; /* Adjust this height to control how many skills initially show */
+				overflow: hidden; 
+				transition: height 0.5s ease; /* Smooth transition for height change */
+			}
+
+			.skills-container.show {
+				height: auto; /* Expand height to show all content */
+			}
+
+			.more-button {
+				display: block;
+				margin: auto;
+				margin-top: 10px;
+				padding: 8px 15px;
+				background-color: #e6756e;
+				color: white;
+				border: none;
+				cursor: pointer;
+			}
+
+			.more-button2 {
+				display: block;
+				margin: auto;
+				margin-top: 10px;
+				padding: 8px 15px;
+				background-color: #edecec;
+				color: #e6756e;
+				border: none;
+				cursor: pointer;
+			}
+			.more-button2:hover{
+				background-color: #ffffff;
+			}
+			.education-container {
+				height: 600px; /* Adjust this height to control how many milestones initially show */
+				overflow: hidden; 
+				transition: height 0.5s ease; /* Smooth transition for height change */
+			}
+
+			.education-container.show {
+				height: auto; /* Expand height to show all content */
+			}
+
+			@media screen and (max-width: 968px) {
+				.skills-container {
+				height: 710px; /* Adjust this height to control how many skills initially show */
+				overflow: hidden; 
+				transition: height 0.5s ease; /* Smooth transition for height change */
+			}
+				
+			}
+		</style>
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="index.html">Suhaina Fathima M</a></h1>
+							<br>
+							<p id="typed-text" style="line-height: 1; display: inline;"></p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="#">Home</a></li>
+								<li>
+									<a href="#main">About</a>
+									<ul>
+										<li><a href="https://www.linkedin.com/in/suhaina-fathima-m">LinkedIn</a></li>
+										<li><a href="https://github.com/SuhainaFathimaM">GitHub</a></li>
+										<li><a href="https://www.youtube.com/@CodingIntern">YouTube</a></li>
+									</ul>
+								</li>
+								<li class="current"><a href="#skills">Skills</a></li>
+								<li class="current"><a href="#education">MileStones</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="right-sidebar.html">Certifications</a></li>
+								<li><a href="no-sidebar.html">Resume</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Intro -->
+				<section id="intro" class="wrapper style1">
+					<div class="title">I am</div>
+					<div class="container">
+						<p class="style2">
+							Suhaina Fathima M<br class="mobile-hide" />
+							Pre Final Year Student in CSE <a href="https://gcesalem.edu.in/" class="nobr">GCE Salem</a>
+						</p>
+						<ul class="actions">
+							<li><a href="https://www.linkedin.com/in/suhaina-fathima-m" class="button style3 large">Let's Connect</a></li>
+						</ul>
+					</div>
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<div class="title">About Me</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium aln-center ">
+								<img class="img-thumbnail" style="width: 200px; height:200px; border:1px solid #e3746d; border-radius: 50%;" src="images/IMG_20230819_083359 (1).jpg" alt="Profile Picture" class="image featured">
+							</div>
+							<div class="col-8 col-12-medium ">
+								<p class="style3" style="color: rgb(55, 52, 52)">My journey in <strong>technology</strong> has taken me from <strong>Competitive Coding</strong> to <strong>Software /AI Engineer, Open Source Contributor </strong> and proficient in <strong>Python, C, C++, Java </strong>
+									with a focus on creating <strong>innovative solutions</strong>. Built my <strong>Cybersecurity</strong> Expertise with <strong>Google Cybersecurity Professional Certification.</strong>Currently, I am a <strong>SWE Fellow</strong> at <strong>Headstarter AI</strong> and I am an  <strong>Open Source Contributor </strong> at GirlScript Summer Of Code (GSSoC 24) and Social Summer Of Code(SSOC 24).
+								</p>
+								<p class="style3" style="color: rgb(55, 52, 52)"> I am a good <strong>Code Debugger.</strong> I'm a strong <strong>problem-solver</strong>, having <strong>won numerous Presentations</strong> and <strong>Coding Competitions</strong> at National Level Technical Symposiums. My <strong>communication skills</strong>, developed through <strong>debate competitions</strong> and <strong>public speaking</strong>, allow me to collaborate effectively and present ideas clearly. I'm also proud to have cleared the <strong>NTSE examination </strong>, demonstrating my academic aptitude.
+								</p>	
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<!-- Features -->
+				<section id="highlights" class="wrapper style3 " >
+					<div class="title" id="skills">My Skills</div>
+					<div class="skills-container">
+						<div class="feature-list">
+							<div class="container">
+								<div class="row aln-center">
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-html5 fa-2xl" style="color: #E34F26;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>HTML</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-css3-alt fa-2xl" style="color: #2962FF;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>CSS</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-js fa-2xl" style="color: #F0DB4F;font-size: 2.5em; margin-bottom: 1em;""></i>
+											<h3>JavaScript</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-bootstrap fa-2xl" style="color: #563D7C;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>BootStrap</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-python fa-2xl" style="color: #3672a4;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>Python</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-java fa-2xl" style="color: #5283a2;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>Java</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-c fa-2xl" style="color: #00599C;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<i class="fa-solid fa-plus" style="color: #00599C;font-size: 1em; margin-bottom: 1em;"></i>
+											<i class="fa-solid fa-plus" style="color: #00599C;font-size: 1em; margin-bottom: 1em;"></i>
+											<h3>C++</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-c fa-2xl" style="color: #00599C;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>C</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-sharp-duotone fa-solid fa-database" style="color: #00599C;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>SQL</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-brands fa-git-alt fa-2xl" style="color: #F05032;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>Git and GitHub</h3>
+										</section>
+									</div>
+									<div class="col-4 col-12-medium">
+										<section class="highlight">
+											<i class="fa-solid fa-lock fa-2xl" style="color: #007bff;font-size: 2.5em; margin-bottom: 1em;"></i>
+											<h3>Cybersecurity</h3>
+										</section>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="more-button" onclick="toggleSkills()">Show More Skills</button>
+				</section>
+
+				<section id="container" class="wrapper style1 ">
+					<div class="title" id="education">Educational MileStones</div>
+					<div class="education-container"> 
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_headstarter-softwareengineering-computerscience-activity-7217765828899872768-SUFz?utm_source=share&utm_medium=member_desktop">SWE Fellow at Headstarter AI</a></h3>
+										<h2>
+											July - Sep 2024
+										</h2>
+										<p>Software Engineering Fellowship</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_infosys-springboard-pragati-activity-7216020714108203008--X7i?utm_source=share&utm_medium=member_desktop/">Pragati Path to Future Cohort By Infosys Spring Board</a></h3>
+										<h2>
+											Aug - Dec 2024
+										</h2>
+										<p>Skills Training Program</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_buildspace-opportunity-selected-activity-7207817371556728832-f7CK?utm_source=share&utm_medium=member_desktop">Buildspace S5 Member</a></h3>
+										<h2>June - July 2024</h2>
+										<p>Worked on Figma projects for 6 weeks</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_ai-ml-aws-activity-7207413940778115072-3SUY?utm_source=share&utm_medium=member_desktop">AWS AI/ ML Scholar</a></h3>
+										<h2>July - Dec 2024</h2>
+										<p>Nanodegree in AI in Udacity</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_socialsummerofcode-opensource-activity-7197855217650995202-TJ6r?utm_source=share&utm_medium=member_desktop">Open Source Contributor at Social Summer Of Code</a></h3>
+										<h2>Jun - July 2024</h2>
+										<p>
+											Contributed to Open Source Projects
+										</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_gssoc-girlscript-opensource-activity-7193327598540636163-t-Kr?utm_source=share&utm_medium=member_desktop">Open Source Contributor at GirlScript Summer Of Code</a></h3>
+										<h2>June - Aug 2024</h2>
+										<p>Contributed to 20 plus Open Source Projects </p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_udacity-bertelsmann-activity-7165777216386031616-J2rT?utm_source=share&utm_medium=member_desktop">Udacity and Bertelsmann Scholar</a></h3>
+										<h2>Feb 2024</h2>
+										<p>Pre Final Year, B.Tech in Computer Science and Engineering</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_im-happy-to-share-that-i-was-one-among-activity-7150870912567758849-vJ0a?utm_source=share&utm_medium=member_desktop">Top 25 in Web Development Course </a></h3>
+										<h2>Jan 2024</h2>
+										<p>By IIT Kharagpur</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_im-happy-to-share-that-ive-obtained-a-new-activity-7111913415601790976-bPbb?utm_source=share&utm_medium=member_desktop">FLY Scholar (Finding the Leader in You)</a></h3>
+										<h2>Sep 2023</h2>
+										<p>By Competitiveness Mindset Institute (CMI) on Leadership Skills</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://www.linkedin.com/posts/suhaina-fathima-m_im-happy-to-share-that-ive-obtained-a-new-activity-7067010997760245760-KwnU?utm_source=share&utm_medium=member_desktop">Poem Writing</a></h3>
+										<h2>Feb 2023</h2>
+										<p>5th Place in National Level Competition</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://gcesalem.edu.in/">Government College Of Engineering, Salem</a></h3>
+										<h3>2022-2026</h3>
+										<p>B.Tech in Computer Science and Engineering</p>
+									</section>
+								</div>
+								</div>
+						</div>
+						<hr style="margin-left: auto;margin-right: auto; width: 80%;" >
+						<div class="container">
+							<div class="row aln-center">
+								<div class="col-12 col-12-medium">
+									<section class="highlight">
+										<h3><a href="https://drive.google.com/file/d/1M3QJTBD5_hJmBNe3kopvAVQd4ndLfGwl/view?usp=sharing">Cleared National Talent Search Examination</a></h3>
+										<h2>2020</h2>
+										<p>Conducted by NCERT(National Council of Educational Research and Training) India</p>
+										
+									</section>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<button class="more-button2" onclick="toggleEducation()">Show More Milestones</button>
+				</section>
+
+
+			<!-- Highlights -->
+			<section id="highlights" class="wrapper style3">
+				<div id="projects"></div>
+				<div class="title">Latest Projects</div>
+				<div class="container">
+					<div class="row aln-center">
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<iframe src="https://suhainafathimam.github.io/MyPortfolio/" width="100%" height="200px" frameborder="0" allowfullscreen></iframe>
+								<h3><a href="https://suhainafathimam.github.io/MyPortfolio/">My Previous Portfolio</a></h3>
+								<p>My previous portfolio displaying my skills, certifications and so on. </p>
+								<ul class="actions">
+									<li><a href="https://github.com/SuhainaFathimaM/MyPortfolio" class="button style1">Visit Code</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<iframe src="https://suhainafathimam.github.io/Music-player-HTML-CSS-JS/" width="100%" height="200px" frameborder="0" allowfullscreen></iframe>
+								<h3><a href="https://suhainafathimam.github.io/Music-player-HTML-CSS-JS/">Music Player</a></h3>
+								<p>Music Player Using HTML, CSS, JS</p>
+								<ul class="actions">
+									<li><a href="https://github.com/SuhainaFathimaM/Music-player-HTML-CSS-JS" class="button style1">Visit Code</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<iframe src="https://suhainafathimam.github.io/Weather-dashboard/" width="100%" height="200px" frameborder="0" allowfullscreen></iframe>
+								<h3><a href="https://suhainafathimam.github.io/Weather-dashboard/">Weather Dashboard</a></h3>
+								<p>Weather Dashboard using API</p>
+								<ul class="actions">
+									<li><a href="https://github.com/SuhainaFathimaM/Music-player-HTML-CSS-JS" class="button style1">Visit Code</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+				<a href="https://github.com/SuhainaFathimaM" style="text-decoration: none;"><button class="more-button"> Show More Projects</button></a>
+			</section>
+
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="title">Contact Me</div>
+					<div class="container">
+						<header class="style1">
+							<h2>Send Your Feedback</h2>
+							<p>
+								For More Details
+							</p>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+
+								<!-- Contact Form -->
+									<section>
+										<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+											
+											<div class="row gtr-50">
+												<input type="hidden" name="access_key" value="09373d24-75a1-4a33-8cbe-cde444681b3e">
+												<div class="col-6 col-12-small">
+													<input type="text" name="name" id="contact-name" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-small">
+													<input type="text" name="email" id="contact-email" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" class="style1" value="Send" /></li>
+														<li><input type="reset" class="style2" value="Reset" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+							</div>
+							<div class="col-6 col-12-medium">
+
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-home">Mailing Address</h3>
+													<p>
+														Salem<br />
+														Tamil Nadu<br />
+														India - 636010
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-comment">Social</h3>
+													<p>
+														<a href="#">suhainafathima.xyz</a><br />
+														<a href="https://www.linkedin.com/in/suhaina-fathima-m/">linkedin.com/suhaina-fathima-m</a><br />
+														<a href="https://github.com/SuhainaFathimaM">github.com/SuhainaFathimaM</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-envelope">Email</h3>
+													<p>
+														<a href="#">suhainafathimam@gmail.com</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="fa-brands fa-youtube">Youtube</h3>
+													<p><a href="https://www.youtube.com/@CodingIntern">Coding Intern</a>
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy; 2024</li><li><a href="#">Suhaina Fathima M. All rights reserved.</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				var typed = new Typed('#typed-text', {
+					strings: ['Software Engineer', 'AI Engineer', 'Web Developer', 'Front End Developer'], 
+					typeSpeed: 80, // Typing speed (ms)
+					backSpeed: 40, // Backspace speed (ms)
+					loop: true // Loop the animation
+				});
+
+				function toggleSkills() {
+					var skillsContainer = document.querySelector('.skills-container');
+					skillsContainer.classList.toggle('show');
+					var button = document.querySelector('.more-button');
+					button.textContent = skillsContainer.classList.contains('show') ? 'Show Less Skills' : 'Show More Skills';
+				}
+
+				function toggleEducation() {
+					var educationContainer = document.querySelector('.education-container');
+					educationContainer.classList.toggle('show');
+					var button = document.querySelector('.more-button2');
+					button.textContent = educationContainer.classList.contains('show') ? 'Show Less Milestones' : 'Show More Milestones';
+				}
+
+			</script>
+
+	</body>
+</html>
